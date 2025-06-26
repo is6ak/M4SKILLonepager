@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKILLonepager</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <a class="navbar__link" href="#section1">Home</a>
+        <a class="navbar__link" href="#section2">Mijn Skills</a>
+        <a class="navbar__link" href="#section3">Contact</a>
+    </nav>
+    <section id="section1" class="section section--hero">
+        <h1 class="heading heading--hero">Isaak Belkadi</h1>
+    </section>
+    <section id="section2" class="section section--about">
+        <h2 class="heading heading--about">Over mij</h2>
+        <p class="paragraph paragraph--about">Ik ben een 19-jarige opkomende developer. Ik hou van goed eten, goed trainen en ik vind dat je passie moet hebben in het leven.</p>
+    </section>
+    <section id="section3" class="section section--contact">
+        <h2 class="heading heading--contact">Contactformulier</h2>
+        <form class="form" id="contactForm">
+            <input class="form__input" type="text" name="name" placeholder="Naam" required>
+            <input class="form__input" type="email" name="email" placeholder="Email" required>
+            <textarea class="form__textarea" name="message" placeholder="Bericht" required></textarea>
+            <input type="hidden" name="access_key" value="db91daa8-9434-49d4-811e-6944ea9030e5">
+            <button class="form__button" type="submit">Verstuur</button>
+            <p id="form-status"></p>
+        </form>
+    </section>
+</body>
+</html>
